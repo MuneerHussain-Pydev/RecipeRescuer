@@ -1,7 +1,7 @@
 import requests
 
 url = "https://api.spoonacular.com/recipes/findByIngredients"
-api_key = "1153709490d04be599b0481a5e44e01e" # replace with your actual API key
+api_key = "1153709490d04be599b0481a5e44e01e"
 ingredients = 'rice,chicken,tomatoes' # replace with your desired ingredients separated by commas
 
 params = {
